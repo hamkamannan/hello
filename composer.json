@@ -1,0 +1,19 @@
+{
+    "name": "hamkamannan/hellolib",
+    "description": "Contoh Library Hello World",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamka Mannan",
+            "email": "hamka@mannan.id"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "hamkamannan\\hellolib": "src/"
+        }
+    },
+    "require": {}
+}
